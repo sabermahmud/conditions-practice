@@ -123,19 +123,27 @@
 // }
 
 // 9-একটি সংখ্যা 5 এবং 7—উভয় দ্বারা বিভাজ্য কিনা তা বের করো।
-const number = 36;
+// const number = 36;
 // if(number % 5 === 0 && number % 7 === 0){
 //     console.log(true)
 // }
 // else{
 //     console.log(false)
 // }
-console.log(number % 5 === 0 && number % 7 === 0)
+// console.log(number % 5 === 0 && number % 7 === 0)
 
 
 // 10-একটি ক্যারেক্টার vowel নাকি consonant তা বের করো।
     // (a, e, i, o, u)
-
+    const letter = "o"
+    if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u"){
+        console.log('vowel')
+    }
+    else{
+        console.log("non-vowel")
+    }
+    // const vowel = ["a", "e", "i", "o", "u"]
+    // console.log(vowel.includes(letter))
 // 🔴 Challenge (১১–১৫)
 //11- একটি সংখ্যা 100-এর চেয়ে বড়, ছোট নাকি সমান—তা বের করো।
 
