@@ -57,14 +57,14 @@
 
 // 🟡 Intermediate (৬–১০)
 // 6-তিনটি সংখ্যার মধ্যে সবচেয়ে বড় সংখ্যা বের করো।
- const numbers = [13, 54, 98];
- let maxNumber = numbers[0];
- for(let number of numbers){
-    if(number > maxNumber){
-        maxNumber = number;
-    }
- }
- console.log(maxNumber)
+//  const numbers = [13, 54, 98];
+//  let maxNumber = numbers[0];
+//  for(let number of numbers){
+//     if(number > maxNumber){
+//         maxNumber = number;
+//     }
+//  }
+//  console.log(maxNumber)
 
 
 // 7-একটি বছর Leap Year কিনা তা বের করো।
@@ -78,7 +78,48 @@
     // 40–49 → C
     // 33–39 → D
     // 0–32 → F
-
+// let mark = 70;
+// if(mark < 0 || mark > 100){
+//  console.log("please input a valid number of mark")
+// }else if(mark >= 80 && mark <= 100){
+//     console.log("A+")
+// }else if(mark >= 70 && mark <= 79){
+//     console.log("A")
+// }else if(mark >= 60 && mark<= 69){
+//     console.log("A-")
+// }else if(mark >= 50 && mark<= 59){
+//     console.log("B")
+// }
+// else if(mark >= 40 && mark<= 49){
+//     console.log("C")
+// }
+// else if(mark >= 33 && mark<= 39){
+//     console.log("D")
+// }
+// else{
+//     console.log("F")
+// }
+let mark = 31;
+if(mark < 0 || mark > 100){
+ console.log("please input a valid number of mark")
+}else if(mark >= 80 && mark <= 100){
+    console.log("A+")
+}else if(mark >= 70){
+    console.log("A")
+}else if(mark >= 60){
+    console.log("A-")
+}else if(mark >= 50){
+    console.log("B")
+}
+else if(mark >= 40){
+    console.log("C")
+}
+else if(mark >= 33){
+    console.log("D")
+}
+else{
+    console.log("F")
+}
 // 9-একটি সংখ্যা 5 এবং 7—উভয় দ্বারা বিভাজ্য কিনা তা বের করো।
 
 // 10-একটি ক্যারেক্টার vowel নাকি consonant তা বের করো।
