@@ -99,28 +99,39 @@
 // else{
 //     console.log("F")
 // }
-let mark = 31;
-if(mark < 0 || mark > 100){
- console.log("please input a valid number of mark")
-}else if(mark >= 80 && mark <= 100){
-    console.log("A+")
-}else if(mark >= 70){
-    console.log("A")
-}else if(mark >= 60){
-    console.log("A-")
-}else if(mark >= 50){
-    console.log("B")
-}
-else if(mark >= 40){
-    console.log("C")
-}
-else if(mark >= 33){
-    console.log("D")
-}
-else{
-    console.log("F")
-}
+
+// let mark = 31;
+// if(mark < 0 || mark > 100){
+//  console.log("please input a valid number of mark")
+// }else if(mark >= 80 && mark <= 100){
+//     console.log("A+")
+// }else if(mark >= 70){
+//     console.log("A")
+// }else if(mark >= 60){
+//     console.log("A-")
+// }else if(mark >= 50){
+//     console.log("B")
+// }
+// else if(mark >= 40){
+//     console.log("C")
+// }
+// else if(mark >= 33){
+//     console.log("D")
+// }
+// else{
+//     console.log("F")
+// }
+
 // 9-একটি সংখ্যা 5 এবং 7—উভয় দ্বারা বিভাজ্য কিনা তা বের করো।
+const number = 36;
+// if(number % 5 === 0 && number % 7 === 0){
+//     console.log(true)
+// }
+// else{
+//     console.log(false)
+// }
+console.log(number % 5 === 0 && number % 7 === 0)
+
 
 // 10-একটি ক্যারেক্টার vowel নাকি consonant তা বের করো।
     // (a, e, i, o, u)
