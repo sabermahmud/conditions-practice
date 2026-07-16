@@ -24,19 +24,36 @@
     // 33 বা তার বেশি → Pass
     // 33-এর কম → Fail
 
-const mark = 56;
-if(mark >= 33){
-    console.log("passed")
-}
-else{
-    console.log("Fail")
-}
+// const mark = 56;
+// if(mark >= 33){
+//     console.log("passed")
+// }
+// else{
+//     console.log("Fail")
+// }
 
 // 4-দুইটি সংখ্যার মধ্যে কোনটি বড় তা বের করো।
+
+const num1 = 12;
+const num2 = 36;
+if (num1 > num2){
+    console.log("num1 is bigger")
+}
+else{
+    console.log("num2 is bigger")
+}
 
 // 5-একজনের বয়স দেওয়া থাকবে।
     // 18 বা তার বেশি → "Eligible to vote"
     // নাহলে → "Not eligible"
+    let age = 12;
+    if(age >= 18){
+        console.log("Eligible to vote")
+    }
+    else{
+        console.log('Not eligible')
+    }
+  
 
 // 🟡 Intermediate (৬–১০)
 // 6-তিনটি সংখ্যার মধ্যে সবচেয়ে বড় সংখ্যা বের করো।
